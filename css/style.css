@@ -474,12 +474,12 @@ input, textarea, button {
 
 .socials_link { 
     display: inline-block;
-    padding: 10px;
+    padding: 10px 0 ;
     width: 25px;
     height: 25px;
     background-color: #f4f7f6; 
     background-repeat: no-repeat;
-    background-size: 20px;
+    background-size: 23px;
     background-position: center;
 }
 
@@ -512,6 +512,7 @@ background-image: url("https://netology-code.github.io/html-2-diploma/sources/im
 
 .address_socials {
     background-color: #f4f7f6;
+    margin: 0 15px;
 }
 
 .socials {
@@ -524,8 +525,8 @@ background-image: url("https://netology-code.github.io/html-2-diploma/sources/im
 
 .copyright {
     text-align: center;
-    margin-top: 60px;
-    margin-bottom: 15px;
+    margin-top: 55px;
+    margin-bottom: 25px;
 }
 
 .cop_text {
