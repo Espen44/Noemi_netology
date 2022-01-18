@@ -1,0 +1,168 @@
+@font-face {
+    font-family: 'OpenSans-regular' ;
+    src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url("https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff");
+    font-weight: 700;
+    font-style: normal;
+}
+
+*
+{padding: 0;margin: 0;border: 0;}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'OpenSans-regular';
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #fff;   /* поправить на белый */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'OpenSans-regular';
+    font-size: 13px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none; 
+}
+
+.container {
+    width: 1200px;
+    min-width: 1200px;
+    margin: 0 auto; 
+    border: 1px solid red;   /* убрать потом*/ 
+}
+
+.header {
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    z-index: 0;
+}
+
+.header::after {
+    content: "";
+    background-color: #000;
+    position: absolute;
+    top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    opacity: 0.5;
+    z-index: -1;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15px 0 15px;
+    position: relative;
+    
+}
+
+.img_logo {
+    width: 180px;
+}
+
+.menu_list {
+    justify-content: space-between;
+    list-style-type: none;   
+}
+
+.menulistitem {
+    margin-left: 36px;
+}
+
+.title {
+    display: block;
+    width: 690px;
+    margin: 104px auto;
+    font-family: 'OpenSans-Bold';
+    color: #fff; 
+    font-size: 45px;
+    line-height: 75px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*------------------карточка---------------*/
+
+.card {
+    display: flex;
+    justify-content: space-between;  
+    width: 790px;
+    padding: 0px 14px;
+}
+
+.card_img {
+    width: 380px;
+    max-width: 380px;
+}
+
+.all_card_info {
+    padding: 0 0 0 34px;
+}
+
+.card_title {
+    font-family: 'OpenSans-Bold';
+    font-size: 20px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 23px;
+    line-height: 1.2em;
+}
+
+.card_info {
+    margin-top: 3px;
+    margin-bottom: 44px;
+}
+
+.card_date {
+    font-family: 'OpenSans-regular' ;
+    font-size: 12px;
+    color: #888;
+}
+
+.card_autor {
+    display: inline;
+    font-family: 'OpenSans-Bold';
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+.card_content_text {
+    font-family: 'OpenSans-regular';
+    font-size: 15px;
+    color: #000;
+    line-height: 1.375rem;
+}
+
+.card_list {
+    justify-content: start;
+}
+
+.card_list_item a {
+    color: #b59f5b;
+    font-family: 'OpenSans-Bold';
+    font-size: 14px;
+    margin-right: 19px;
+    vertical-align: top;
+}
